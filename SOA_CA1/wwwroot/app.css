@@ -49,3 +49,26 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+
+.navbar-logo {
+    height:40px;
+    width:auto;
+    object-fit:contain;
+}
+
+.top-row {
+    background-color: #ddbbb6;
+/*    or #B08A84 */
+    height: 56px;
+}
+
+.sidebar[b-b16d1zioi2] {
+    background-color: #F8F4F1;
+}
+
+main{
+    background-color:#F8F4F1;
+}
+
+

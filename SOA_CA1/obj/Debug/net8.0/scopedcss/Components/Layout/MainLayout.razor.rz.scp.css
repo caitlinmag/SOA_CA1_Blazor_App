@@ -9,12 +9,14 @@ main[b-b16d1zioi2] {
 }
 
 .sidebar[b-b16d1zioi2] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #B08A84;
 }
 
 .top-row[b-b16d1zioi2] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: #ddbbb6;
+    /*    or #B08A84 */
+    /*    height: 56px;*/
+    border-bottom: 2.5px solid #c97c7e;
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
