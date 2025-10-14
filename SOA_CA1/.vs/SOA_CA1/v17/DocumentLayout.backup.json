@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caitl\\Documents\\C#\\SOA_CA1\\",
+  "WorkspaceRootPath": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\c#\\soa_ca1\\components\\pages\\booksection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\booksection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\booksection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\c#\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookSection.razor",
-              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\C#\\SOA_CA1\\Components\\Pages\\BookSection.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\BookSection.razor",
-              "ToolTip": "C:\\Users\\caitl\\Documents\\C#\\SOA_CA1\\Components\\Pages\\BookSection.razor",
-              "RelativeToolTip": "Components\\Pages\\BookSection.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T18:26:16.674Z",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-11T18:46:14.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\C#\\SOA_CA1\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\caitl\\Documents\\C#\\SOA_CA1\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T18:25:28.846Z",
+              "WhenOpened": "2025-10-11T18:48:21.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookSection.razor",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\BookSection.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\BookSection.razor",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\BookSection.razor",
+              "RelativeToolTip": "Components\\Pages\\BookSection.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T18:26:16.674Z",
               "EditorCaption": ""
             }
           ]

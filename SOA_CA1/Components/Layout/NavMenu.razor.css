@@ -16,8 +16,9 @@
 }
 
 .top-row {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #ddbbb6;
+    /*    or #B08A84 */
+    height: 56px;
 }
 
 .navbar-brand {
