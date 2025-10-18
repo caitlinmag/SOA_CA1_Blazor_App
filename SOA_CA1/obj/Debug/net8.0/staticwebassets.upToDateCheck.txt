@@ -1,8 +1,8 @@
+wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
-wwwroot\app.css
-wwwroot\images\Narrative_Logo.png
-wwwroot\images\Final_Logo.png
 wwwroot\favicon.png
 wwwroot\images\Book_Icon.svg
+wwwroot\images\Final_Logo.png
 wwwroot\images\floral_image.jpg
+wwwroot\images\Narrative_Logo.png

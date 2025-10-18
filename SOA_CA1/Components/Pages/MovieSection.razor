@@ -1,0 +1,58 @@
+﻿@page "/MovieSection"
+@using RestSharp
+@inject HttpClient HttpClient
+
+<PageTitle>Movies</PageTitle>
+
+<h2>Movie Section</h2>
+
+@* <input placeholder="Enter Movie Title" @bind="movieTitle"/>
+<p>you typed: @movieTitle</p>
+<button @onclick="SubmitMovieTitle">Submit</button> *@
+
+<ul>
+    @* @foreach (var movie in movies)
+    {
+        <li>
+            @movie.MovieTitle 
+        </li>
+    } *@
+    @if(movie != null)
+    {
+        <ul>
+            <li>Title: @movie.Title</li>
+            <li>Year: @movie.Year</li>
+            <li>Director: @movie.Director</li>
+            <li>Genre: @movie.Genre</li>
+            <li>Plot: @movie.Plot</li>
+        </ul>
+    }
+</ul>
+
+@code {
+    // List<Movies> movies = new List<Movies>();
+    private Movies movie;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string Movie_API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=85c1095a";
+
+        // movies = await HttpClient.GetFromJsonAsync<List<Movies>>(Movie_API_URL);
+        movie = await HttpClient.GetFromJsonAsync<Movies>(Movie_API_URL);
+    }
+
+    // private string? movieTitle;
+    // private List<Movies> movies = new();
+
+    // private void SubmitMovieTitle()
+    // {
+    //     Console.WriteLine($"User input: {movieTitle}");
+
+    //     if (!string.IsNullOrWhiteSpace(movieTitle))
+    //     {
+    //         Movies newMovie = new Movies(movieTitle);
+    //         movies.Add(newMovie);
+    //         movieTitle = string.Empty;
+    //     }
+    // }
+}
