@@ -103,3 +103,8 @@ h1[b-b16d1zioi2] {
     font-weight: 400;
     font-style: normal;
 }
+
+.main-page-image[b-b16d1zioi2]{
+    position: fixed;
+    object-fit: cover;
+}
