@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\booksection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\booksection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -46,99 +54,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 105,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T18:08:56.507Z",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T08:23:35.911Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:36:10.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T19:34:52.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T19:31:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\BookService.cs",
+              "RelativeDocumentMoniker": "BookService.cs",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\BookService.cs",
+              "RelativeToolTip": "BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T08:43:50.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieService.cs",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\MovieService.cs",
               "RelativeToolTip": "MovieService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T10:56:31.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MovieSection.razor",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\MovieSection.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\MovieSection.razor",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\MovieSection.razor",
               "RelativeToolTip": "Components\\Pages\\MovieSection.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-18T10:55:08.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Books.cs",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Books.cs",
               "RelativeDocumentMoniker": "Books.cs",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Books.cs",
               "RelativeToolTip": "Books.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T08:41:20.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\BookService.cs",
-              "RelativeDocumentMoniker": "BookService.cs",
-              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\BookService.cs",
-              "RelativeToolTip": "BookService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T08:43:50.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T08:23:35.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Movies.cs",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Movies.cs",
               "RelativeDocumentMoniker": "Movies.cs",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Movies.cs",
               "RelativeToolTip": "Movies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T10:39:51.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BookSection.razor",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\BookSection.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\BookSection.razor",
@@ -146,11 +183,12 @@
               "RelativeToolTip": "Components\\Pages\\BookSection.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-18T15:03:32.228Z"
+              "WhenOpened": "2025-10-18T15:03:32.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",

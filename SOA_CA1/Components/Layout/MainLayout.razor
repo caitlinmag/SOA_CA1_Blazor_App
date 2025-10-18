@@ -4,22 +4,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <div class="page">
-     <div class="sidebar"> 
-         <NavMenu /> 
-     </div> 
+     @* <div class="sidebar">  *@
+         @* <NavMenu />  *@
+     @* </div>  *@
 
     <main>
         <div class="top-row navbar">
-            <div class="container-fluid d-flex align-items-center">
-            <div class="navbar-brand" href="#"">
-         <img src="images/Final_Logo.png" class="navbar-logo" alt="Logo"/>
-        </div>
-            @* <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a> *@
-        </div>
-        </div>
-        <article class="content px-4">
-            @Body
-        </article>
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div class="navbar-brand d-flex align-items-center">
+                <img src="images/Final_Logo.png" class="navbar-logo" alt="Logo"/>
+            </div>
+
+        <nav class="nav-links d-flex align-items-center">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <img src="images/House_Icon.svg" class="icon-image"/>
+                Home           
+            </NavLink>
+      
+            <NavLink class="nav-link" href="BookSection">
+                    <img src="images/Book_Icon.svg" class="icon-image"/>
+                Books
+            </NavLink>
+
+            <NavLink class="nav-link" href="MovieSection">
+                <span class="bi bi-camera-reels" aria-hidden="true"></span> 
+                <img src="images/Film_Icon.svg" class="icon-image" />
+                Movies
+            </NavLink>
+    </nav>
+    </div>
+    </div>
+            <article class="content px-4">
+                @Body
+            </article>
     </main>
 </div>
 

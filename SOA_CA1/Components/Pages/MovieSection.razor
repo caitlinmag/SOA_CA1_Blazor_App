@@ -6,9 +6,9 @@
 
 <h2>Movie Section</h2>
 
-@* <input placeholder="Enter Movie Title" @bind="movieTitle"/>
-<p>you typed: @movieTitle</p>
-<button @onclick="SubmitMovieTitle">Submit</button> *@
+@* <input placeholder="Enter Movie Title" @bind="movie.Title"/> *@
+@* <p>you typed: @movie.Title</p> *@
+@* <button @onclick="SubmitMovieTitle">Submit</button> *@
 
 <ul>
     @* @foreach (var movie in movies)
@@ -39,6 +39,7 @@
 
         // movies = await HttpClient.GetFromJsonAsync<List<Movies>>(Movie_API_URL);
         movie = await HttpClient.GetFromJsonAsync<Movies>(Movie_API_URL);
+        // movies = await MovieService.GetMovieData();
     }
 
     // private string? movieTitle;
@@ -46,11 +47,11 @@
 
     // private void SubmitMovieTitle()
     // {
-    //     Console.WriteLine($"User input: {movieTitle}");
+    //     Console.WriteLine($"User input: {movie.Title}");
 
-    //     if (!string.IsNullOrWhiteSpace(movieTitle))
+    //     if (!string.IsNullOrWhiteSpace(movie.Title))
     //     {
-    //         Movies newMovie = new Movies(movieTitle);
+    //         Movies newMovie = new Movies(movie.Title, movie.Director, movie.Year, movie.);
     //         movies.Add(newMovie);
     //         movieTitle = string.Empty;
     //     }
