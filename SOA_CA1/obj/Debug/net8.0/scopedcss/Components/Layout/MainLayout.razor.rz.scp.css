@@ -96,3 +96,10 @@ main[b-b16d1zioi2] {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+
+h1[b-b16d1zioi2] {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}

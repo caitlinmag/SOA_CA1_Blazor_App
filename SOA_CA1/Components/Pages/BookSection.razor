@@ -1,14 +1,30 @@
-﻿<PageTitle>Home</PageTitle>
-<div class="title text-center">
-    <h1>Narrative</h1>
-</div>
+﻿@page "/BookSection"
 
+<PageTitle>Books</PageTitle>
 
-<h2>Search for your favourite book!</h2>
-<input placeholder="Enter Book Title" @bind="bookTitle"/>
+<h2>Book Section</h2>
+<input placeholder="Enter Book Title" @bind="bookTitle"/> 
+<button @onclick="SubmitBookTitle">Submit</button>
+<ul>
+    @foreach(var book in books)
+    {
+        <li>
+                @book.bookAPIResult
+        </li>
+    }
+</ul>
 
 @code {
     private string? bookTitle;
     private List<Books> books = new();
 
+    private void SubmitBookTitle()
+    {
+        if (!string.IsNullOrWhiteSpace(bookTitle))
+        {
+            Books newBook = new Books(bookTitle);
+            books.Add(newBook);
+            bookTitle = string.Empty;
+        }
+    }
 }

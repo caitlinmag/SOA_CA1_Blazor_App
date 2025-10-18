@@ -3,21 +3,26 @@
     public class Books
     {
         public string BookTitle { get; set; } 
-        public string BookAuthor {  get; set; }
-        public DateTime publishYear { get; set; }
 
+        //public string BookAuthor {  get; set; }
+        //public DateTime publishYear { get; set; }
+        public BookService bookService = new BookService();
+        public string bookAPIResult { get; set; }
 
-        public Books(string bookTitle, string bookAuthor, DateTime publishYear)
+        public Books(string bookTitle)
         {
             BookTitle = bookTitle;
-            BookAuthor = bookAuthor;
-            this.publishYear = publishYear;
+            bookAPIResult = bookService.BookText(bookTitle);
+
+            //BookAuthor = bookAuthor;
+            //this.publishYear = publishYear;
         }
     }
 
     //Books API Link: https://openlibrary.org/search.json
 
-    public partial class BookAPI
+    
+    public partial class BooksAPI
     {
         private string resultBookTitle;
 

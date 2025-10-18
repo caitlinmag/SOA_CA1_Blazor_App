@@ -63,3 +63,7 @@ C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\refint\
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\SOA_CA1.pdb
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\SOA_CA1.genruntimeconfig.cache
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\ref\SOA_CA1.dll
+C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\bin\Debug\net8.0\RestSharp.dll
+C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.AssemblyReference.cache
+C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.Up2Date

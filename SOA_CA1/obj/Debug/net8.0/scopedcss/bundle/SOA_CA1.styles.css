@@ -97,6 +97,13 @@ main[b-b16d1zioi2] {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+
+h1[b-b16d1zioi2] {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* _content/SOA_CA1/Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-sytpr5at9q] {
     appearance: none;
