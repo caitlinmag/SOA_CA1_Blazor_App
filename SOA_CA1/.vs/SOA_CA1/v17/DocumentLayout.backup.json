@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\moviesection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|solutionrelative:movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E42B68D-2A45-40DC-AA5B-9CC1BAE393BA}|SOA_CA1.csproj|c:\\users\\caitl\\documents\\dev\\soa_ca1_blazor_app\\soa_ca1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -30,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-16T08:23:35.911Z",
               "IsPinned": true,
@@ -48,46 +52,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T13:55:48.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MovieSection.razor",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\MovieSection.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\MovieSection.razor",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Components\\Pages\\MovieSection.razor",
               "RelativeToolTip": "Components\\Pages\\MovieSection.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-18T10:55:08.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieService.cs",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\MovieService.cs",
               "RelativeToolTip": "MovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T10:56:31.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Movies.cs",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Movies.cs",
               "RelativeDocumentMoniker": "Movies.cs",
               "ToolTip": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\Movies.cs",
               "RelativeToolTip": "Movies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T10:39:51.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\caitl\\Documents\\dev\\SOA_CA1_Blazor_App\\SOA_CA1\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
