@@ -5,39 +5,54 @@
 
 <h2>Movie Section</h2>
 
-@* <input placeholder="Enter Movie Title" @bind="movie.Title"/> *@
-@* <p>you typed: @movie.Title</p> *@
-@* <button @onclick="SubmitMovieTitle">Submit</button> *@
+<input @bind="userMovieInput" placeholder="Enter Movie Title" />
+<button @onclick="SubmitUserInput">Search</button>
+<p>you typed: <strong>@userMovieInput</strong></p>
 
-    @* @foreach (var movie in movies)
+    @*  @foreach (var movie in movies)
     {
         <li>
             @movie.MovieTitle 
         </li>
     } *@
-    @if(movie == null)
+    @if(movie != null)
     {
-       <p>No movies available</p>
+    <ul>
+        <li>Title: @movie.Title</li>
+        <li>Year: @movie.Year</li>
+        <li>Director: @movie.Director</li>
+        <li>Genre: @movie.Genre</li>
+        <li>Plot: @movie.Plot</li>
+    </ul>
     }
     else
     {
-        <ul>
-            <li>Title: @movie.Title</li>
-            <li>Year: @movie.Year</li>
-            <li>Director: @movie.Director</li>
-            <li>Genre: @movie.Genre</li>
-            <li>Plot: @movie.Plot</li>
-        </ul>
+       <p>No movies available</p>
     }
 
 @code {
-    private Movies movie;
+    private string userMovieInput = string.Empty;
 
-    protected override async Task OnInitializedAsync()
+    private Movies? movie;
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     movie = await MovieService.GetMovieAPI();
+    // }
+
+    async Task SubmitUserInput()
     {
-        movie = await MovieService.GetMovieAPI();
+        Console.WriteLine($"input {userMovieInput}");
+
+        if (!string.IsNullOrWhiteSpace(userMovieInput))
+        {
+            movie = await MovieService.GetMovieAPI(userMovieInput);
+        }
+
+        // await HttpClient.PostAsJsonAsync(movie);
+
     }
-    }
+}
 
    
 
