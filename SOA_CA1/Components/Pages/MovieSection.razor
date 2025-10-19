@@ -5,53 +5,37 @@
 
 <h2>Movie Section</h2>
 
-<input @bind="userMovieInput" placeholder="Enter Movie Title" />
-<button @onclick="SubmitUserInput">Search</button>
-<p>you typed: <strong>@userMovieInput</strong></p>
-
-    @*  @foreach (var movie in movies)
-    {
-        <li>
-            @movie.MovieTitle 
-        </li>
-    } *@
-    @if(movie != null)
-    {
-    <ul>
+<input type="text" @bind="userMovieInput" placeholder="Enter Movie Title..."/>
+<button @onclick="SubmitUserInput">Submit</button>
+    
+      @if(movie != null) 
+     { 
+    <ul> 
         <li>Title: @movie.Title</li>
         <li>Year: @movie.Year</li>
         <li>Director: @movie.Director</li>
         <li>Genre: @movie.Genre</li>
         <li>Plot: @movie.Plot</li>
     </ul>
-    }
+     } 
     else
     {
        <p>No movies available</p>
-    }
+    }   
+
 
 @code {
     private string userMovieInput = string.Empty;
 
-    private Movies? movie;
-
-    // protected override async Task OnInitializedAsync()
-    // {
-    //     movie = await MovieService.GetMovieAPI();
-    // }
+    public Movies? movie;
 
     async Task SubmitUserInput()
     {
-        Console.WriteLine($"input {userMovieInput}");
-
         if (!string.IsNullOrWhiteSpace(userMovieInput))
         {
             movie = await MovieService.GetMovieAPI(userMovieInput);
         }
-
-        // await HttpClient.PostAsJsonAsync(movie);
-
-    }
+    }  
 }
 
    
