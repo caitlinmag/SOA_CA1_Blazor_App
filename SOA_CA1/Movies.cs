@@ -8,22 +8,9 @@
 
         public string Genre { get; set; }
         public string Plot { get; set; }
-        public string movieAPIResult {  get; set; }
-        public MovieService movieService { get; set; }
+        public string Response {  get; set; }
 
-        public Movies()
-        {
-
-        }
-
-        public Movies(string title, string director, string year, string genre, string plot)
-        {
-            Title = title;
-            Year = year;
-            Director = director;
-            Genre = genre;
-            Plot = plot;
-        }
+        public Movies() { }
     }
 }
 

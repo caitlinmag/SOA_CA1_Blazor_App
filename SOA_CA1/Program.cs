@@ -12,8 +12,9 @@ namespace SOA_CA1
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-            builder.Services.AddHttpClient();
             builder.Services.AddScoped<MovieService>();
+            builder.Services.AddHttpClient();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
