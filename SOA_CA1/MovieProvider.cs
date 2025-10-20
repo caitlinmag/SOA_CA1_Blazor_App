@@ -7,7 +7,7 @@
         public string type { get; set; }
         public string ios_appstore_url { get; set; }
         public string android_playstore_url { get; set; }
-        public List<string> regions { get; set; }
+        public string regions { get; set; }
 
         public MovieProvider() { }
     }
