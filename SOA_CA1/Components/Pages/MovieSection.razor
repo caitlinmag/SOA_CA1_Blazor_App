@@ -1,16 +1,24 @@
 ﻿@page "/MovieSection"
 @inject MovieService MovieService
+@inject ProviderService ProviderService
 
 <PageTitle>Movies</PageTitle>
 
-<h2>Movie Section</h2>
+<h1>OmniBook</h1>
 
+<div class="movie-input-section">
 <input type="text" @bind="userMovieInput" placeholder="Enter Movie Title..."/>
 <button @onclick="SubmitUserInput">Submit</button>
-    
+</div>
+<div class="movie-provider-section">
+    <h2>Check Movie Provider</h2>
+    <button @onclick="ViewMovieProviders">View</button>
+</div>
+
       @if(movie != null) 
      { 
     <ul> 
+        <li>ID: @movie.imdbID</li>
         <li>Title: @movie.Title</li>
         <li>Year: @movie.Year</li>
         <li>Director: @movie.Director</li>
@@ -35,7 +43,16 @@
         {
             movie = await MovieService.GetMovieAPI(userMovieInput);
         }
-    }  
+    }
+
+    public MovieProvider? movieProvider;
+    async Task ViewMovieProviders()
+    {
+        if (movie != null && !string.IsNullOrWhiteSpace(movie.imdbID))
+        {
+            movieProvider = await ProviderService.GetMovieProvider(movie.imdbID);
+        }
+    }
 }
 
    
