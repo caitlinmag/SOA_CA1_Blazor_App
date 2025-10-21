@@ -1,6 +1,6 @@
 ﻿@page "/MovieSection"
 @inject MovieService MovieService
-@inject ProviderService ProviderService
+@inject BookService BookService
 
 <PageTitle>Movies</PageTitle>
 <head>
@@ -21,6 +21,7 @@
 
         @if (movie != null)
         {
+          <p>Movie has been found with title: @userMovieInput!</p>
             <div class="movie-card">
                 <h3>@movie.Title</h3>
                 <p><strong>IMDB ID:</strong>@movie.imdbID</p>
@@ -36,31 +37,37 @@
         }
     </div>
 
-<div class="movie-provider-section text-center">
-    <h2>Find Movie Providers</h2>
-    <button @onclick="ViewMovieProviders">View</button>
-        @if (movieProvider != null)
+<div> 
+
+</div>
+    <div class="books-section text-center">
+    <h2>Find Books</h2>
+    <button @onclick="ViewBooks">View</button>
+        @if (bookResult != null)
         {
-            @foreach (var provider in providers)
+            <p>Book has been found with title: @bookResult.q!</p>
+            <p>Number of books found: @bookResult.numFound</p>
+            <ul>
+            @foreach (var book in books)
             {
-                <li>@provider.title_id</li>
-                <li>@provider.name</li>
-                <li>@provider.type</li>
-                <li>@provider.ios_appstore_url</li>
-                <li>@provider.android_playstore_url</li>
-                <li>@provider.regions</li>
+                <h3>@book.Title</h3>
+                <li>@book.Author</li>
+                <li>@book.Year</li>
             }
+            </ul>
         }
         else
         {
-            <p>No movie providers available</p>
+            <p>No books available</p>
         }
 </div>  
 </div>
 @code {
     private string userMovieInput = string.Empty;
     public Movies? movie;
-    private List<MovieProvider> providers = new();
+
+    private Rootobject? bookResult;
+    private List<Books> books = new();
 
     async Task SubmitUserInput()
     {
@@ -70,12 +77,11 @@
         }
     }
 
-    public MovieProvider? movieProvider;
-    async Task ViewMovieProviders()
+    async Task ViewBooks()
     {
-        if (movie != null && !string.IsNullOrWhiteSpace(movie.imdbID))
+        if(movie != null && !string.IsNullOrWhiteSpace(movie.Title))
         {
-            var movieProvider = await ProviderService.GetMovieProvider(movie.imdbID);
+            bookResult = await BookService.GetBooksAPI(movie.Title);
         }
     }
 }

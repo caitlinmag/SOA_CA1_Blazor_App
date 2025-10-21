@@ -13,7 +13,7 @@ namespace SOA_CA1
                 .AddInteractiveServerComponents();
 
             builder.Services.AddScoped<MovieService>();
-            builder.Services.AddScoped<ProviderService>();
+            builder.Services.AddScoped<BookService>();
             builder.Services.AddHttpClient();
 
             var app = builder.Build();
