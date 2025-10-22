@@ -36,14 +36,25 @@
         {
             <p>No movies available</p>
         }
+
+        <div class="favourite-books">
+            <h2>Favourites</h2>
+            @foreach (var favourite in favouriteBooks)
+            {
+                <span>@favourite.title</span><br />
+            }
+        </div>
     </div>
     </div>
+
+    
 
     <div class="books-section">
         <div class="container">
         <h1 class="text-center">Book Section</h1>
         @if (bookResult != null)
         {
+            <button @onclick="SortBooks">Sort Books</button>
                 <h2>@bookResult.q Books</h2>
                 <strong>Number of Books: @bookResult.numFound</strong>
                 <div class="book-grid">
@@ -73,6 +84,7 @@
                         {
                             <span>Provider: @doc.ebook_provider</span>
                         }
+                        <button @onclick="() => AddToFavourites(doc)">Favourite</button>
                 </div>
                 }
             </div>
@@ -91,6 +103,9 @@
     private Rootobject? bookResult;
     private List<Books> books = new();
 
+    private List<Doc> favouriteBooks = new();
+    Boolean IsFavouriteBook = true;
+
     async Task SubmitUserInput()
     {
         if (!string.IsNullOrWhiteSpace(userMovieInput))
@@ -105,6 +120,19 @@
         {
             bookResult = await BookService.GetBooksAPI(movie.Title);
         }
+    }
+
+    private void AddToFavourites(Doc book)
+    {
+        if (IsFavouriteBook && !favouriteBooks.Contains(book))
+        {
+            favouriteBooks.Add(book);
+        }
+    }
+
+    private void SortBooks()
+    {
+        books.Sort();
     }
 }
 

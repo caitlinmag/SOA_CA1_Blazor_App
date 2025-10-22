@@ -1,10 +1,57 @@
 ﻿namespace SOA_CA1
 {
-    public class Books
+    public class Books : IComparable<Books>
     {
-       public string Title { get; set; }
-       public string Author { get; set; }
-       public int Year { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int Year { get; set; }
+
+        public Books(string title, string author, int year)
+        {
+            Title = title;
+            Author = author;
+            Year = year;
+        }
+
+   public override bool Equals(object? obj)
+        {
+            if (!(obj is Books))
+            {
+                return false;
+            }
+
+            var book = (Books)obj;
+            if (book.Title.Equals(Title))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool operator ==(Books left, Books right)
+        {
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(Books left, Books right)
+        {
+            return !left.Equals(right);
+        }
+
+        public override int GetHashCode()
+        {
+            return Title.GetHashCode();
+        }
+
+        public int CompareTo(Books? other)
+        {
+            int result = string.Compare(Title, other.Title);
+            if(result == 0)
+            {
+                result = this.Year.CompareTo(other.Year);
+            }
+            return result;
+        }
     }
 
     public class Rootobject
