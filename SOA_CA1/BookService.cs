@@ -15,8 +15,7 @@ namespace SOA_CA1
         {
             string Book_URL = $"https://openlibrary.org/search.json?q={bookTitle}";
             var bookAPIResponse = await HttpClient.GetStringAsync(Book_URL);
-            var bookResult = JsonConvert.DeserializeObject<Rootobject>(bookAPIResponse);
-            return bookResult;
+            return JsonConvert.DeserializeObject<Rootobject>(bookAPIResponse);
         }
     }
 }

@@ -9,19 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=Pinyon+Script&display=swap" rel="stylesheet">
 </head>
 
-<div class="title text-center">
-<h1>Movie Section</h1>
+<div class="title">
+<h1 class="text-center">Movie Section</h1>
 </div>
 
 <div class="movie-container">
-<div class="movie-input-section text-center">
-    <h2>Find Movies</h2>
+<div class="movie-input-section">
+    <h2 class="text-center">Find Movies</h2>
 <input type="text" @bind="userMovieInput" placeholder="Enter Movie Title..."/>
 <button @onclick="SubmitUserInput">Submit</button>
 
         @if (movie != null)
         {
-          <p>Movie has been found with title: @userMovieInput!</p>
+            <p>Movie has been found with title: <strong>@userMovieInput!</strong></p>
             <div class="movie-card">
                 <h3>@movie.Title</h3>
                 <p><strong>IMDB ID:</strong>@movie.imdbID</p>
@@ -40,20 +40,44 @@
 <div> 
 
 </div>
-    <div class="books-section text-center">
-    <h2>Find Books</h2>
+    <div class="books-section">
+        <h2 class="text-center">Find Books</h2>
     <button @onclick="ViewBooks">View</button>
         @if (bookResult != null)
         {
-            <p>Book has been found with title: @bookResult.q!</p>
+            <p>Book has been found with title: <strong>@bookResult.q!</strong></p>
             <p>Number of books found: @bookResult.numFound</p>
             <ul>
-            @foreach (var book in books)
-            {
-                <h3>@book.Title</h3>
-                <li>@book.Author</li>
-                <li>@book.Year</li>
-            }
+                <h3>@bookResult.q Books</h3>
+                    @foreach (var doc in bookResult.docs)
+                {
+                    <li>
+                        <strong>@doc.title</strong><br />
+
+                        @if(doc.author_name != null)
+                        {
+                            <span>Author:</span>
+                            @foreach(var author in doc.author_name)
+                            {
+                               author.ToString();
+                              <span>@author,</span> 
+                            }
+                        }
+                        <br />
+                        <span>Publish Year: @doc.first_publish_year</span><br />
+                        
+                        @if(doc.ebook_access == "printdisabled" || doc.ebook_access == "no_ebook"){
+                            doc.ebook_access = "No Ebook";
+                        }else{
+                            <span>Type: @doc.ebook_access</span>
+                        }
+                        
+                        @if(doc.ebook_provider != null)
+                        {
+                            <span>Provider: @doc.ebook_provider</span>
+                        }
+                  </li>
+                }
             </ul>
         }
         else
