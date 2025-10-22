@@ -53,7 +53,6 @@ C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\rjimswa
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\scopedcss\bundle\SOA_CA1.styles.css
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\scopedcss\projectbundle\SOA_CA1.bundle.scp.css
 C:\Users\caitl\Documents\dev\SOA_CA1_Blazor_App\SOA_CA1\obj\Debug\net8.0\staticwebassets.build.json
