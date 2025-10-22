@@ -20,6 +20,7 @@ namespace SOA_CA1
             // showing data by movie title(user input) in api:
             string Movie_API_URL = $"https://www.omdbapi.com/?t={title}&apikey={APIKey}";
 
+            // Reference used for using httpclient and async https://www.youtube.com/watch?v=WxgYDAU4Ppw
             var movieAPIResponse = await HttpClient.GetStringAsync(Movie_API_URL);
 
             var movie = JsonConvert.DeserializeObject<Movies>(movieAPIResponse);
