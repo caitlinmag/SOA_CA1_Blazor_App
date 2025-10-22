@@ -24,10 +24,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caitl/Documents/dev/SOA_CA1_Blazor_App/SOA_CA1/Components/Pages/BookSection.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29rU2VjdGlvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/caitl/Documents/dev/SOA_CA1_Blazor_App/SOA_CA1/Components/Pages/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
