@@ -12,7 +12,6 @@
 <div class="title">
     <h1 class="text-center">Moviely</h1>
 </div>
-
 <div class="movies-section">
 <div class="container">
     <div class="search-bar">
@@ -20,6 +19,7 @@
 <button @onclick="SubmitUserInput">Search</button>
 <button @onclick="ViewBooks">View Books</button>
         </div>
+        <div class="content">
 
         @if (movie != null)
         {
@@ -38,33 +38,48 @@
         }
 
         <div class="favourite-books">
+          <div class="favourite-title">
+         <img src="images/star-icon.svg" />
             <h2>Favourites</h2>
+            </div>
+
             @foreach (var favourite in favouriteBooks)
             {
-                <span>@favourite.title</span><br />
+                <ul>
+                <li>@favourite.title</li>
+                </ul>
             }
         </div>
     </div>
     </div>
-
+</div>
     
 
     <div class="books-section">
         <div class="container">
-        <h1 class="text-center">Book Section</h1>
+            <div class="books-heading">
+             <h1 class="text-center">Book Section</h1>
+            <button @onclick="SortBooks" class="sort-button">Sort By Title</button>
+        </div>
         @if (bookResult != null)
         {
-            <button @onclick="SortBooks">Sort Books</button>
-                <h2>@bookResult.q Books</h2>
+          
+            <h2>@bookResult.q Books</h2>
                 <strong>Number of Books: @bookResult.numFound</strong>
                 <div class="book-grid">
                     @foreach (var doc in bookResult.docs)
                 {
                     <div class="book-card">
-                        <h4>@doc.title</h4><br />
+                        <div class="book-title">
+                            <h4>@doc.title</h4>
+                            <button @onclick="() => AddToFavourites(doc)" class="favourites-button">
+                                <img src="images/heart-icon.svg" />
+                            </button>
+                        </div>
+                        <br />
                         @if(doc.author_name != null)
                         {
-                            <span>Author:</span>
+                            <span>Author: </span>
                             @foreach(var author in doc.author_name)
                             {
                                author.ToString();
@@ -84,7 +99,7 @@
                         {
                             <span>Provider: @doc.ebook_provider</span>
                         }
-                        <button @onclick="() => AddToFavourites(doc)">Favourite</button>
+                        <br />
                 </div>
                 }
             </div>

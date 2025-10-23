@@ -1,4 +1,3 @@
-wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
 wwwroot\favicon.png
@@ -7,5 +6,8 @@ wwwroot\images\Background_Image.png
 wwwroot\images\Book_Icon.svg
 wwwroot\images\Film_Icon.svg
 wwwroot\images\floral_image.jpg
+wwwroot\images\heart-icon.svg
 wwwroot\images\House_Icon.svg
 wwwroot\images\Moviely_Logo.png
+wwwroot\images\star-icon.svg
+wwwroot\app.css
