@@ -64,6 +64,17 @@
         public string q { get; set; }
         public object offset { get; set; }
         public Doc[] docs { get; set; }
+
+        //public int CompareTo(Rootobject? other)
+        //{
+        //    int result = string.Compare(Rootobject, other);
+        //    if (result == 0)
+        //    {
+        //        result = this.Year.CompareTo(other.Year);
+        //    }
+        //    return result;
+        //}
+
     }
 
     public class Doc

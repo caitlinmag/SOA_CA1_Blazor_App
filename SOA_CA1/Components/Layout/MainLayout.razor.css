@@ -13,11 +13,8 @@ main {
 }
 
 .top-row {
-    background-color: #ddbbb6;
-    /*    or #B08A84 */
-    /*    height: 56px;*/
-    border-bottom: 2.5px solid #c97c7e;
-    justify-content: flex-end;
+    background-color: #e9b1af;
+    justify-content: space-between;
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -56,12 +53,10 @@ main {
     .sidebar {
         width: 250px;
         height: 100vh;
-        position: sticky;
         top: 0;
     }
 
     .top-row {
-        position: sticky;
         top: 0;
         z-index: 1;
     }

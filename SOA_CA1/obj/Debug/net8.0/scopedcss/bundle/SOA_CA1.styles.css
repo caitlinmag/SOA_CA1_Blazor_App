@@ -14,11 +14,8 @@ main[b-b16d1zioi2] {
 }
 
 .top-row[b-b16d1zioi2] {
-    background-color: #ddbbb6;
-    /*    or #B08A84 */
-    /*    height: 56px;*/
-    border-bottom: 2.5px solid #c97c7e;
-    justify-content: flex-end;
+    background-color: #e9b1af;
+    justify-content: space-between;
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -57,12 +54,10 @@ main[b-b16d1zioi2] {
     .sidebar[b-b16d1zioi2] {
         width: 250px;
         height: 100vh;
-        position: sticky;
         top: 0;
     }
 
     .top-row[b-b16d1zioi2] {
-        position: sticky;
         top: 0;
         z-index: 1;
     }
