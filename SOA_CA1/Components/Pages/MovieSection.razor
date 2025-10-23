@@ -54,12 +54,12 @@
     </div>
 </div>
     
-
     <div class="books-section">
         <div class="container">
             <div class="books-heading">
              <h1 class="text-center">Book Section</h1>
-            <button @onclick="SortBooks" class="sort-button">Sort By Title</button>
+            <button @onclick="SortBookByTitle" class="sort-button">Sort By Title</button>
+            <button @onclick="SortBookByYear" class="sort-button">Sort By Year</button>
         </div>
         @if (bookResult != null)
         {
@@ -100,6 +100,9 @@
                             <span>Provider: @doc.ebook_provider</span>
                         }
                         <br />
+                        <span>Edition: @doc.edition_count</span>
+                        <br />
+                        <span>Full Text: @doc.has_fulltext</span>
                 </div>
                 }
             </div>
@@ -145,9 +148,23 @@
         }
     }
 
-    private void SortBooks()
+    private void SortBookByTitle()
     {
-        books.Sort();
+        if(bookResult.docs != null)
+        {
+            Array.Sort(bookResult.docs); //using compareTo method in books class
+        }
+    }
+
+    // To compare ints in c# https://learn.microsoft.com/en-us/dotnet/api/system.array.sort?view=net-9.0#system-array-sort(system-array)
+    public int CompareByBookYear(Doc book1, Doc book2)
+    {
+        return book1.first_publish_year.CompareTo(book2.first_publish_year);
+    }
+
+    private void SortBookByYear()
+    {
+        Array.Sort(bookResult.docs, CompareByBookYear);
     }
 }
 

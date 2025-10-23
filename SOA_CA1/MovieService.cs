@@ -12,14 +12,12 @@ namespace SOA_CA1
     public class MovieService
     {
         public HttpClient HttpClient = new HttpClient();
+        string APIKey = "85c1095a";
 
         public async Task<Movies?> GetMovieAPI(string title)
         {
-
-            string APIKey = "85c1095a";
-            // showing data by movie title(user input) in api:
             string Movie_API_URL = $"https://www.omdbapi.com/?t={title}&apikey={APIKey}";
-
+            // showing data by movie title(user input) in api:
             // Reference used for using httpclient and async https://www.youtube.com/watch?v=WxgYDAU4Ppw
             var movieAPIResponse = await HttpClient.GetStringAsync(Movie_API_URL);
 

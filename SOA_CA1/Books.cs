@@ -1,4 +1,8 @@
-﻿namespace SOA_CA1
+﻿using System;
+using System.Collections;
+using System.Runtime.CompilerServices;
+
+namespace SOA_CA1
 {
     public class Books : IComparable<Books>
     {
@@ -54,7 +58,7 @@
         }
     }
 
-    public class Rootobject
+    public class Rootobject 
     {
         public int numFound { get; set; }
         public int start { get; set; }
@@ -64,20 +68,9 @@
         public string q { get; set; }
         public object offset { get; set; }
         public Doc[] docs { get; set; }
-
-        //public int CompareTo(Rootobject? other)
-        //{
-        //    int result = string.Compare(Rootobject, other);
-        //    if (result == 0)
-        //    {
-        //        result = this.Year.CompareTo(other.Year);
-        //    }
-        //    return result;
-        //}
-
     }
 
-    public class Doc
+    public class Doc : IComparable<Doc>
     {
         public string[] author_alternative_name { get; set; }
         public string[] author_key { get; set; }
@@ -161,6 +154,20 @@
         public string[] author_facet { get; set; }
         public int trending_score_hourly_sum { get; set; }
         public Availability availability { get; set; }
+
+        public int CompareTo(Doc? other)
+        {
+            // compare by title and then year 
+            if (other == null) return 1; // check other object has a value
+
+            int result = string.Compare(this.title, other.title, ignoreCase: true);
+
+            if (result == 0)
+            {
+                result = this.first_publish_year.CompareTo(other.first_publish_year);
+            }
+            return result;
+        }
     }
 
     public class Availability
