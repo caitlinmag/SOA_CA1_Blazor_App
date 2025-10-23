@@ -216,7 +216,7 @@ h3 {
 }
 
 .nav-links .nav-link:hover{
-    opacity 0.8;
+    opacity: 0.8;
 }
 
 h4{
@@ -241,7 +241,7 @@ button.favourites-button {
 
 button.sort-button {
     padding: 8px 16px;
-    background-color: #a8565b;
+    background-color: #F8F4F1;
     color: #5b3a41;
     border-radius: 12px;
     cursor: pointer;
