@@ -80,7 +80,7 @@
                         <br />
                         @if(doc.author_name != null)
                         {
-                            <span>Author: </span>
+                            <span><strong>Author: </strong></span>
                             @foreach(var author in doc.author_name)
                             {
                                author.ToString();
@@ -88,23 +88,24 @@
                             }
                         }
                         <br />
-                        <span>Publish Year: @doc.first_publish_year</span><br />
-                        @if (doc.EbookAccess == EbookAccess.None)
+                        <span><strong>Publish Year: </strong>@doc.first_publish_year</span><br />
+                        @if (doc.ebook_access == "printdisabled" || doc.ebook_access == "no_ebook")
                         {
                             <span>No Ebook Available</span>
                         }
                         else
                         {
-                            <span>Ebook Type: @doc.ebook_access</span>
+                            <span><strong>Ebook Type: </strong>@doc.ebook_access</span>
                         }
+                        @* <span><strong>Ebook Type: </strong> @CheckBookAccess(doc.EbookAccess)</span> *@
                         @if(doc.ebook_provider != null)
                         {
-                            <span>Ebook Provider: @doc.ebook_provider</span>
+                            <span><strong>Ebook Provider: </strong>@doc.ebook_provider</span>
                         }
                         <br />
-                        <span>Edition: @doc.edition_count</span>
+                        <span><strong>Edition: </strong>@doc.edition_count</span>
                         <br />
-                        <span>Full Text: @doc.has_fulltext</span>
+                        <span><strong>Full Text: </strong>@doc.has_fulltext</span>
                 </div>
                 }
             </div>
@@ -168,6 +169,24 @@
     {
         Array.Sort(bookResult.docs, CompareByBookYear);
     }
+
+    // Attempt of working with enums with the ebook access 
+    // static string CheckBookAccess(EbookAccess ebookAccess)
+    // {
+    //     switch (ebookAccess)
+    //     {
+    //         case EbookAccess.None:
+    //             return "No Ebook Available";
+    //         case EbookAccess.Print_disabled:
+    //             return "No Ebook Available";
+    //         case EbookAccess.Borrowable:
+    //             return "Borrowable";
+    //         case EbookAccess.Public:
+    //             return "Public access";
+    //         default:
+    //             return "No Ebook Available";
+    //     }
+    // }
 }
 
    

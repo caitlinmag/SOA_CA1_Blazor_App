@@ -70,7 +70,6 @@ namespace SOA_CA1
         public Doc[] docs { get; set; }
     }
 
-    //Working with enums in C# :https://www.w3schools.com/cs/cs_enums.php
     public enum EbookAccess
     {
         None,
