@@ -70,6 +70,15 @@ namespace SOA_CA1
         public Doc[] docs { get; set; }
     }
 
+    //Working with enums in C# :https://www.w3schools.com/cs/cs_enums.php
+    public enum EbookAccess
+    {
+        None,
+        Borrowable,
+        Print_disabled,
+        Public
+    }
+
     public class Doc : IComparable<Doc>
     {
         public string[] author_alternative_name { get; set; }
@@ -155,6 +164,8 @@ namespace SOA_CA1
         public int trending_score_hourly_sum { get; set; }
         public Availability availability { get; set; }
 
+        public EbookAccess EbookAccess { get; set; }
+        
         public int CompareTo(Doc? other)
         {
             // compare by title and then year 

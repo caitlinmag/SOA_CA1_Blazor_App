@@ -2,6 +2,7 @@
 @inject MovieService MovieService
 @inject BookService BookService
 
+
 <PageTitle>Movies</PageTitle>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,16 +89,17 @@
                         }
                         <br />
                         <span>Publish Year: @doc.first_publish_year</span><br />
-                        
-                        @if(doc.ebook_access == "printdisabled" || doc.ebook_access == "no_ebook"){
-                            doc.ebook_access = "No Ebook";
-                        }else{
-                            <span>Type: @doc.ebook_access</span>
+                        @if (doc.EbookAccess == EbookAccess.None)
+                        {
+                            <span>No Ebook Available</span>
                         }
-                        
+                        else
+                        {
+                            <span>Ebook Type: @doc.ebook_access</span>
+                        }
                         @if(doc.ebook_provider != null)
                         {
-                            <span>Provider: @doc.ebook_provider</span>
+                            <span>Ebook Provider: @doc.ebook_provider</span>
                         }
                         <br />
                         <span>Edition: @doc.edition_count</span>
@@ -128,7 +130,7 @@
     {
         if (!string.IsNullOrWhiteSpace(userMovieInput))
         {
-            movie = await MovieService.GetMovieAPI(userMovieInput);
+            movie = await MovieService.GetAPIData(userMovieInput);
         }
     }
 
@@ -136,7 +138,7 @@
     {
         if(movie != null && !string.IsNullOrWhiteSpace(movie.Title))
         {
-            bookResult = await BookService.GetBooksAPI(movie.Title);
+            bookResult = await BookService.GetAPIData(movie.Title);
         }
     }
 
