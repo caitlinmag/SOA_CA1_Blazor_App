@@ -6,12 +6,10 @@ using RestSharp;
 
 namespace SOA_CA1
 {
-    public class BookService
+    public class BookService: Service<Rootobject>, IService<Rootobject>
     {
-        public HttpClient HttpClient = new HttpClient();
-
         // return a list of doc (lists of book fields)
-        public async Task<Rootobject> GetBooksAPI(string bookTitle)
+        public override async Task<Rootobject> GetAPIData(string bookTitle)
         {
             string Book_URL = $"https://openlibrary.org/search.json?q={bookTitle}";
             var bookAPIResponse = await HttpClient.GetStringAsync(Book_URL);
