@@ -90,14 +90,8 @@ main {
         top: 0.5rem;
     }
 
-
-h1 {
-    font-family: "Old Standard TT", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .main-page-image{
     position: fixed;
     object-fit: cover;
 }
+

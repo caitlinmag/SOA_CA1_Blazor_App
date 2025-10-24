@@ -279,3 +279,11 @@ button.sort-button {
     justify-content: center;
     align-items: center;
 }
+
+h2 {
+    font-family: "Kaushan Script", cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #7b4a48;
+    padding-top: 12px;
+}
