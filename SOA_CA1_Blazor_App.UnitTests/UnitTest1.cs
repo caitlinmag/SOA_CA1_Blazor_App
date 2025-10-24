@@ -1,4 +1,9 @@
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using SOA_CA1;
+using SOA_CA1.Components.Pages;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace SOA_CA1_Blazor_App.UnitTests
 {
@@ -32,6 +37,31 @@ namespace SOA_CA1_Blazor_App.UnitTests
             var testResult = await bookService.GetAPIData(movieTitle);
             Assert.IsNotNull(testResult);
             Assert.That(testResult.q, Is.EqualTo("Pride and Prejudice"));
+        }
+
+        [Test]
+        public async Task TestUserInput()
+        {
+            var movieTitle = "Matrix";
+            var testResult = await movieService.GetAPIData(movieTitle);
+            Assert.That(testResult.Title, Is.EqualTo($"Matrix"));
+        }
+
+        [Test]
+        public void TestAddToFavourites()
+        {
+            var movieSection = new MovieSection();
+
+            var book = new Doc();
+            book.title = "Harry Potter";
+
+            List<Doc> favouriteBooks = new();
+
+            movieSection.AddToFavourites(book);
+
+            movieSection.AddToFavourites(book);
+
+            Assert.AreEqual(1, favouriteBooks.Count);
         }
 
     }
