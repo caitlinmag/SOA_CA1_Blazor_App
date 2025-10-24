@@ -41,7 +41,7 @@
         <div class="favourite-books">
           <div class="favourite-title">
          <img src="images/star-icon.svg" />
-            <h2>Favourites</h2>
+            <h2>Book Favourites</h2>
             </div>
 
             @foreach (var favourite in favouriteBooks)
@@ -143,7 +143,7 @@
         }
     }
 
-    private void AddToFavourites(Doc book)
+    public void AddToFavourites(Doc book)
     {
         if (IsFavouriteBook && !favouriteBooks.Contains(book))
         {

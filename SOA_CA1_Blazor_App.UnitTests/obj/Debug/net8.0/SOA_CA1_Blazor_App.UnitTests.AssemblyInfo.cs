@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOA_CA1_Blazor_App.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ccad2acb5a89f3d1d51a620c06518bca2936912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1327df6fb5e992306b0b74c95d34c5d96618d5de")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOA_CA1_Blazor_App.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOA_CA1_Blazor_App.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
